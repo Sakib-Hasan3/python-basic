@@ -1,0 +1,2 @@
+Writing and then reading in 'w+' mode.
+Appending and then reading in 'a+' mode.
