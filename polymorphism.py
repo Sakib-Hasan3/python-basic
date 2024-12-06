@@ -11,8 +11,13 @@ class Vehicle:
 class Plane(Vehicle):
     pass
 
+class car(Vehicle):
+    pass
+
 # Create an instance of Plane
 p1 = Plane("hablu420", "hablu", "all components")
+c1 =car("bmw","e221","main component")
 
 # Access and print the brand attribute
-print(p1.brand)
+print(p1.model,p1.brand,p1.document)
+print(c1.brand)
